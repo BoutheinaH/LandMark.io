@@ -1,0 +1,241 @@
+/*--
+Author: Software Matcher
+Author URL: 
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+--*/
+
+
+/*Start General rules for all the site */
+
+html,
+body {
+    font-size: 100%;
+    font-family: 'Titillium Web', 'Arial';
+    background: #ffffff;
+    margin: 0px!important;
+}
+p {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    font-size: 14px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 3.2em;
+}
+ul,
+ol,
+label {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/*End General rules for all the site */
+
+
+/*-- start header-top-left --*/
+
+
+.header_left {
+    float: left;
+    padding: 0.7em 0 0.8em 13em;
+    width: 50%;
+    background: #3F424A;
+}
+.header_left ul li {
+    display: inline-block;
+    margin-right: 2em;
+    font-size: 14px;
+    color: #999;
+}
+.header_left ul li span {
+    padding-right: 1em;
+    color: #F4A907;
+}
+.header_left ul li a {
+    color: #999;
+    text-decoration: none;
+}
+.header_left ul li a:hover {
+    color: #999;
+}
+
+/*-- start header-top-right --*/
+.header_right {
+    float: right;
+    width: 50%;
+    background: #F4A907;
+    padding: 0.3em 0em 0.4em 24em;
+}
+
+/*-- End header-top-left --*/
+
+
+/*-- Start social-media-bookmarks --*/
+
+ul.social-media-bookmarks li {
+    margin-left: 5px;
+    display: inline-block;
+}
+ul.social-media-bookmarks li a i.fa {
+    color: #000;
+    background-color: #fff;
+    width: 35px;
+    height: 35px;
+    font-size: 15px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    -ms-border-radius: 50%;
+    line-height: 36px;
+    text-align: center;
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+}
+ul .social-media-bookmarks li a i.fa:hover {
+    cursor: pointer;
+    color: #fff;
+    background-color: #3F424A;
+}
+
+/*-- End social-media-bookmarks --*/
+/*-- End header-top-right --*/
+
+
+/*-- Start nav-effect --*/
+
+.navbar{
+    margin-top: 40px;
+    background-color: white;
+}
+
+.navbar>.container-fluid .navbar-brand{
+    color: #F4A907;
+    float: right;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    line-height: center;
+}
+
+.navbar-default .navbar-nav>li>a {
+    font-weight : bolder;
+    width: 110px;
+    line-height: center;
+    text-align: center;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #000;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.navbar-default .navbar-brand{
+    color: #F4A907;
+}
+.navbar-default .navbar-brand:hover{
+color:#3F424A;
+}
+
+.navbar-default .navbar-nav>.active>a{
+    color:#D92807 ;
+    background-color: #F4A907;
+}
+
+
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>li>a:hover{
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+    
+}
+
+.navbar-default .navbar-header .navbar-toggle {
+    font-weight: 700;
+    font-size: 12px;
+    background-color: #F4A907;
+}
+
+.header {
+    border-bottom: 1px solid #EAEAEA;
+}
+.navbar-default {
+    background: none;
+    border: none;
+}
+.navbar {
+    margin-bottom: 0;
+}
+.navbar-collapse {
+    padding: 0;
+    box-shadow: none;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+    border: none;
+}
+.navbar-nav {
+    float: left;
+    margin: 0.5em 0 0 7em;
+}
+.navbar-default .navbar-brand,
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #ccc;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    background: #F4A907;
+    color: #000;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    transition: border .5s.
+}
+.navbar-nav > li > a {
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 20px 10px 0;
+    color: #444!important;
+    font-weight: 700;
+}
+.header-bottom {
+    position: relative;
+    padding: 1em 0;
+}
+
+/*-- End nav-effect --*/
+
+/* Start SlideShow */
+
+.zs-slideshow{
+    margin-top: 30px;
+}
+
+.zs-slide{
+    transition: transform 8000ms ease-out, opacity 800ms;
+    opacity: 1;
+    transform: scale(1, 1);
+    z-index: 2;
+}
+
+.baner-info >h3{
+    margin-top: 200px;
+}
