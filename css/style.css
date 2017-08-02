@@ -106,7 +106,7 @@ ul.social-media-bookmarks li a i.fa {
     -o-transition: all 0.5s ease-in-out;
     -ms-transition: all 0.5s ease-in-out;
 }
-ul .social-media-bookmarks li a i.fa:hover {
+.social-media-bookmarks li a i.fa:hover {
     cursor: pointer;
     color: #fff;
     background-color: #3F424A;
@@ -238,4 +238,54 @@ color:#3F424A;
 
 .baner-info >h3{
     margin-top: 200px;
+}
+
+
+/* Start Footer Section */
+
+.footer{
+    margin-top: 150px;
+    background: #3F424A;
+    color: #FFF;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.footer a{
+    color: #AAA;
+}
+.footer a:hover{
+    color: #FFF;
+}
+
+.footer h3{
+    font-size: 22px;
+    color: #F4A907;
+    letter-spacing: 1px;
+    margin: 0 0 10px;
+}
+
+.footer .two-columns{
+    overflow: hidden
+}
+.footer .two-columns li{
+    width: 50%;
+    float: left;
+    padding: 5px 0;
+}
+
+.footer .social-list{
+    overflow: hidden;
+}
+.footer .social-list li{
+    margin-top: 5px;
+    margin-right: 15px ;
+    }
+.footer .social-list li a i.fa:hover {
+    background-color: #F4A907;
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
 }
