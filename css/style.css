@@ -18,7 +18,7 @@ body {
 p {
     font-family: 'Arial', sans-serif;
     margin: 0;
-    font-size: 14px;
+    
 }
 h1,
 h2,
@@ -30,7 +30,7 @@ h6 {
     margin: 0;
     text-transform: capitalize;
     font-weight: bold;
-    font-size: 3.2em;
+
 }
 ul,
 ol,
@@ -288,4 +288,11 @@ color:#3F424A;
     -moz-transition: all 0.5s ease-in-out;
     -o-transition: all 0.5s ease-in-out;
     -ms-transition: all 0.5s ease-in-out;
+}
+
+.media-body {
+    font-size: 13px;
+}
+.media-body p{
+    font-size: 5;
 }
