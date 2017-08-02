@@ -120,17 +120,16 @@ ul.social-media-bookmarks li a i.fa {
 
 .navbar{
     margin-top: 40px;
-    background-color: white;
+    background-color: white !important;
 }
 
 .navbar>.container-fluid .navbar-brand{
     color: #F4A907;
-    float: right;
+    float: left;
     font-size: 24px;
     font-weight: bold;
-    text-align: center;
-    line-height: center;
-}
+    text-align: left;
+    }
 
 .navbar-default .navbar-nav>li>a {
     font-weight : bolder;
@@ -191,7 +190,7 @@ color:#3F424A;
 }
 .navbar-nav {
     float: left;
-    margin: 0.5em 0 0 7em;
+   /*margin: 0.5em 0 0 7em;*/
 }
 .navbar-default .navbar-brand,
 .navbar-default .navbar-brand:hover,
@@ -223,23 +222,20 @@ color:#3F424A;
 
 /*-- End nav-effect --*/
 
-/* Start SlideShow */
+/* Start slider-Show */
 
-.zs-slideshow{
-    margin-top: 30px;
+.slider-show{
+    margin-top:20px;
 }
-
-.zs-slide{
-    transition: transform 8000ms ease-out, opacity 800ms;
-    opacity: 1;
-    transform: scale(1, 1);
-    z-index: 2;
+.slider-show h3
+{
+  color: #fff;
 }
-
-.baner-info >h3{
-    margin-top: 200px;
+.zs-enabled .zs-slideshow .zs-bullets .zs-bullet.active {
+  background:#F4A907;
+  border: 2px solid #F4A907;
 }
-
+/* End of slider-show*/
 
 /* Start Footer Section */
 
