@@ -1,8 +1,7 @@
 <!--
 author: Software Matcher
-author URL: 
+author URL:
 License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
 -->
 <!DOCTYPE html>
 <html>
@@ -24,12 +23,15 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- Theme CSS -->
+    <link href="./css/zoomslider.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
+    
+   
 </head>
 
 <body>
     <!--/main-header-->
-    <div class="top-main" id="home">
+    <section class="top-main" id="home">
         <div class="header-top">
             <div class="header_left">
                 <ul>
@@ -49,8 +51,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
         </div>
         <div class="header-bottom">
-            <div class="container">
-                <nav class="navbar navbar-default navbar-fixed-top">
+                <nav class="navbar navbar-default">
                     <div class="container-fluid">
                         <!-- Brand and toggle get grouped for better mobile display -->
                         <div class="navbar-header">
@@ -60,44 +61,159 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                                 <span class="icon-bar"></span>
                                 <span class="icon-bar"></span>
                             </button>
-                            <a class="navbar-brand" href="#">Brand Name</a>
+                            
+                            <a class="navbar-brand" href="#"><img src="img/logo.png" alt="logo"></a>
                         </div>
 
                         <!-- Collect the nav links, forms, and other content for toggling -->
                         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-
                             <ul class="nav navbar-nav navbar-right">
-                                <li><a class="page-scroll" href="index.html">Home</a></li>
-                                <li><a class="page-scroll" href="#about">About</a></li>
-                                <li class="active"><a class="page-scroll" href="services.html">Services<span class="sr-only">(current)</span></a></li>
-                                <li><a class="page-scroll" href="gallery.html">Gallery</a></li>
-                                <li><a class="page-scroll" href="projects.html">Projects</a></li>
-                                <li><a class="page-scroll" href="team.html">Team</a></li>
-                                <li><a class="page-scroll" href="contact.html">Contact</a></li>
+                                <li>
+                                    <a class="page-scroll" href="index.html">
+                                        <span class="icon">
+                                              <i class="icon-home glyphicon glyphicon-home" aria-hidden="true"></i>
+                                         </span> Home 
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a class="page-scroll" href="about.html" onclick="$('').animatescroll();" >
+                                        <span class="icon">
+                                            <i class="icon-services glyphicon glyphicon-info-sign" aria-hidden="true"></i>
+                                        </span> About
+                                    </a>
+                                </li>
+                                <li class="active">
+                                    <a class="page-scroll" href="services.html">
+                                        <span class="icon">
+                                            <i class="icon-portfolio glyphicon glyphicon-cog" aria-hidden="true"></i>
+                                        </span> Services
+                                        <span class="sr-only">(current)</span>
+
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="page-scroll" href="gallery.html">
+                                        <span class="icon">
+                                            <i class="icon-blog glyphicon glyphicon-picture" aria-hidden="true"></i>
+                                        </span> Gallery
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="page-scroll" href="projects.html">
+                                        <span class="icon">
+                                             <i class="fa fa-tasks" aria-hidden="true"></i>
+                                        </span> Projects
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="page-scroll" href="team.html">
+                                        <span class="icon">
+                                              <i class="fa fa-users" aria-hidden="true"></i>
+                                        </span> Team
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="page-scroll" href="contact.html">
+                                        <span class="icon">
+                                              <i class="icon-contact glyphicon glyphicon-envelope" aria-hidden="true"></i>
+                                        </span> Contact
+                                    </a>
+                                </li>
                             </ul>
                         </div>
+
                         <!-- /.navbar-collapse -->
                     </div>
                     <!-- /.container-fluid -->
                 </nav>
-                <div class="header_search">
-                    <div class="cd-main-header">
-                        <ul class="cd-header-buttons">
-                            <li>
-                                <a class="cd-search-trigger" href="#cd-search"> <span></span></a>
-                            </li>
-                        </ul>
-                        <!-- cd-header-buttons -->
+            <!-- script-for-menu --> <!-- it doesn' work !! -->
+					<script>					
+						$(".navbar-toogle").click(function(){
+							$(".navbar-default ul").slideToggle("slow" , function(){
+							});
+						});
+					</script>
+					<!-- //script-for-menu --> 
+            
+        </div>
+    </section>
+
+    
+
+    <!-- Start Footer Section -->
+    <section class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <h3>Sitemap</h3>
+                    <ul class="list-unstyled two-columns">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="team.html">Team</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                    
+                </div>
+                <div class="col-lg-4">
+                    <h3> Latest Projects </h3>
+
+                    <div class="media">
+                        <a class="pull-left" href="#">
+                            <img class="media-object" src="img/project1.jpeg" alt="Project_01">
+                        </a>
+                        <div class="media-body">
+                            <h4 class="media-heading">Project 1</h4>
+                            <p>Some text about Project_01: location, team, mission, duration...</p>
+
+                        </div>
+
                     </div>
-                    <div id="cd-search" class="cd-search">
-                        <form action="#" method="post">
-                            <input name="Search" type="search" placeholder="Search...">
-                        </form>
+                    <div class="media">
+                        <a class="pull-left" href="#">
+                            <img class="media-object" src="img/project2.jpeg" alt="Project_02">
+                        </a>
+                        <div class="media-body">
+                            <h4 class="media-heading">Project 2</h4>
+                            <p>Some text about Project_02: location, team, mission, duration...</p>
+                        </div>
+
                     </div>
+
+                </div>
+                <div class="col-lg-4">
+                    <h3>Feel Free To Contact Us</h3>
+                    <ul class="Contact-Us">
+                        <li><span class="fa fa-envelope" aria-hidden="true"></span> <a href="mailto:info@example.com">info@example.com</a></li>
+                        <li><span class="fa fa-phone-square" aria-hidden="true"></span> (010) 221 918 811</li>
+                    </ul>
+                    <ul class="social-media-bookmarks social-list">
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                    </ul>
                 </div>
 
             </div>
         </div>
+    </section>
 
-    </div>
+    
+
+
+
+
+    <!-- load java script libraries -->
+    <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="js/animatescroll.min.js"></script>
+    <script type="text/javascript" src="js/modernizr-2.6.2.min.js"></script>
+    <script type="text/javascript" src="js/jquery.zoomslider.min.js"></script>
+
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
 </body>
+</html>
