@@ -28,7 +28,7 @@ h5,
 h6 {
     font-family: 'Arial', sans-serif;
     margin: 0;
-    text-transform: capitalize;
+ 
     font-weight: bold;
 
 }
@@ -206,9 +206,9 @@ color:#3F424A;
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-    background: #F4A907;
+    background: #FFF;
 
-    /*box-shadow: 0 100px #F4A907;*/
+    box-shadow: 0 5px #F4A907;
 
     transition: all .5s ease-in-out;
 
@@ -225,11 +225,19 @@ color:#3F424A;
 .navbar-default .navbar-nav>li>a:focus,
 .navbar-default .navbar-nav>li>a:hover{
     color: #F4A907;
+    zoom: 1.2;
+    height:2;
+    -webkit-transition:all 5000ms ease-in-out;
+    -moz-transition:height 1000ms ease-in-out;
+    -o-transition:height 1000ms ease-in-out;
+    transition:height 1000ms ease-in-out;
     /*box-shadow: 0 5px #F4A907;*/
     background-color: #F4A907;
     cursor: pointer;
-    height: 5.9em;
-    transition: all 0.2s ease-in-out;
+        
+
+    
+    
 }
 
 .header-bottom {
@@ -266,6 +274,22 @@ color:#3F424A;
   border: 2px solid #F4A907;
 }
 /* End of slider-show*/
+
+/* Start Brief Section */
+.brief{
+    margin-top: 20px;
+    line-height: 30px
+}
+
+.brief h1{
+    color: #F4A907;
+}
+
+.brief p{
+    margin-top: 20px;
+    font-size: 18px;
+}
+/* End Brief Section */
 
 /* Start Footer Section */
 
