@@ -50,20 +50,20 @@ label {
     float: left;
     padding: 0.7em 0 0.8em 13em;
     width: 50%;
-    background: #3F424A;
+    background: #605E60;
 }
 .header_left ul li {
     display: inline-block;
     margin-right: 2em;
     font-size: 14px;
-    color: #999;
+    color: #FFF;
 }
 .header_left ul li span {
     padding-right: 1em;
     color: #F4A907;
 }
 .header_left ul li a {
-    color: #999;
+    color: #fff;
     text-decoration: none;
 }
 .header_left ul li a:hover {
@@ -295,7 +295,7 @@ color:#3F424A;
 
 .footer{
     margin-top: 40px;
-    background: #3F424A;
+    background: #605E60;
     color: #FFF;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -351,13 +351,38 @@ color:#3F424A;
     margin-top: 10px;
     margin-bottom: 20px;
 }
+/* ScrollToTop Section */
+.footer-bottom{
+    background-color: #474A4C;
+}
+.footer-rights{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.footer-rights p{
+    color: #FFF;
+}
 
-/** Light box*/
+.footer-rights span{
+    color: #F4A907
+}
 
-/* End of light box*/
+.fa-chevron-circle-up {
+    color: #F4A907;
+    float: right;
+    font-size: 30px;
+    position: fixed;
+    right: 15px;
+    bottom: 5px;
+    z-index: 9999; 
+    display: none;
+    cursor: pointer;
+}
 
 
-/** Contact-Us Pages */
+/* // End of ScrollToTop Section */
+
+/** Contact-Us Page */
 
 /* contact us form*/
 
