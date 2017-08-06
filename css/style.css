@@ -16,7 +16,7 @@ body {
     margin: 0px!important;
 }
 p {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Titillium Web','Arial';
     margin: 0;
 
 }
@@ -26,7 +26,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Titillium Web';
     margin: 0;
  
     font-weight: bold;
@@ -277,7 +277,7 @@ color:#3F424A;
 
 /* Start Brief Section */
 .brief{
-    margin-top: 20px;
+    margin-top: 30px;
     line-height: 30px
 }
 
@@ -290,6 +290,35 @@ color:#3F424A;
     font-size: 18px;
 }
 /* End Brief Section */
+
+/* Start What We Offer Section */
+.what-we-offer h1{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #F4A907;
+}
+
+.media:first-child {
+    margin-top: 0;
+}
+
+.feature {
+    background-color: #eee;
+    width: 360px;
+    padding: 8px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    position: relative;
+}
+
+.feature img{
+    margin-top: 5px;
+}
+
+.media-heading {
+    margin: 0 0 5px;
+}
+/* End What We Offer Section */
 
 /* Start Footer Section */
 
@@ -381,6 +410,34 @@ color:#3F424A;
 
 
 /* // End of ScrollToTop Section */
+
+/* Start Services Page */
+.services{
+    background-color: #ccc;
+}
+
+.services-head{
+    margin-top: 20px;
+    color: #F4A907;
+}
+
+.services p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.media{
+    margin-top: 10px;
+}
+
+.media-heading{
+    font-size: 28px;
+}
+
+.media-content{
+    font-size: 18px;
+}
+/* // End Services Page */
 
 /** Contact-Us Page */
 
