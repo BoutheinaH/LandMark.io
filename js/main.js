@@ -22,7 +22,16 @@ var ScrollButton = $("#scroll");
           });
 });
 
-// used to animate photo 
+// used to animate photo with slider
+// $( function() {
+//     $( '#gallery' ).jGallery( { mode: 'slider' } );
+// } );
+
+// used to animate photo with Album
 $( function() {
-    $( '#gallery' ).jGallery( { mode: 'slider' } );
+    $( '#gallery_slider' ).jGallery({ mode: 'slider' });
+} );
+
+$( function() {
+    $( '#gallery' ).jGallery();
 } );
