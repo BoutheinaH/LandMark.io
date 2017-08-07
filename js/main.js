@@ -4,7 +4,7 @@ $(function()
 var ScrollButton = $("#scroll");
      $(window).scroll(function()
      {
-          console.log($(this).scrollTop());
+        //  console.log($(this).scrollTop());
 
           if ($(this).scrollTop() >= 50 ){
                ScrollButton.show()
@@ -20,29 +20,16 @@ var ScrollButton = $("#scroll");
           {
                $("html,body").animate({scrollTop : 0}, 600);
           });
-   
+
 });
 
 // used to animate photo with slider
-// $( function() {
-//     $( '#gallery' ).jGallery( { mode: 'slider' } );
-// } );
+$( function() {
+    $( '#gallery_slider' ).jGallery( { mode: 'slider' } );
+} );
 
 // used to animate photo with Album
-$( function() {
-    $( '#gallery_slider' ).jGallery({ mode: 'slider' });
-} );
 
 $( function() {
     $( '#gallery' ).jGallery();
 } );
-
-// gallery animation
-
-$( function() {
-$( '#album' ).jGallery( {
-autostart: true,
-zoomSize: '100%'
-} );
-} ); 
-
