@@ -439,6 +439,30 @@ color:#3F424A;
 }
 /* // End Services Page */
 
+/* Start Page Team */
+.our-team{
+    background: url(../img/cubes.jpg) no-repeat center center fixed;
+
+}
+.team{
+    background: rgba(2,2,2,0.5);
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+.team h1, .team p{
+    color: #FFF;
+    padding-top: 20px;
+    
+}
+.team .person{
+    margin-top: 20px;
+}
+.team .row{
+    margin-top: 20px;
+}
+/* //End Page Team */
+
 /** Contact-Us Page */
 
 /* contact us form*/

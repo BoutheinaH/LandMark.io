@@ -20,9 +20,20 @@ var ScrollButton = $("#scroll");
           {
                $("html,body").animate({scrollTop : 0}, 600);
           });
+   
 });
 
 // used to animate photo 
 $( function() {
     $( '#gallery' ).jGallery( { mode: 'slider' } );
 } );
+
+// gallery animation
+
+$( function() {
+$( '#album' ).jGallery( {
+autostart: true,
+zoomSize: '100%'
+} );
+} ); 
+
