@@ -20,6 +20,7 @@ var ScrollButton = $("#scroll");
           {
                $("html,body").animate({scrollTop : 0}, 600);
           });
+   
 });
 
 // used to animate photo with slider
@@ -35,3 +36,13 @@ $( function() {
 $( function() {
     $( '#gallery' ).jGallery();
 } );
+
+// gallery animation
+
+$( function() {
+$( '#album' ).jGallery( {
+autostart: true,
+zoomSize: '100%'
+} );
+} ); 
+
