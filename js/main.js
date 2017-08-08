@@ -22,14 +22,3 @@ var ScrollButton = $("#scroll");
           });
 
 });
-
-// used to animate photo with slider
-$( function() {
-    $( '#gallery_slider' ).jGallery( { mode: 'slider' } );
-} );
-
-// used to animate photo with Album
-
-$( function() {
-    $( '#gallery' ).jGallery();
-} );
