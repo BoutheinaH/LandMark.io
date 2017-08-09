@@ -23,6 +23,10 @@ License: Creative Commons Attribution 3.0 Unported
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
 
     <!-- Theme CSS -->
+    <link rel="stylesheet" href="./css/default.css">
+    <link rel="stylesheet" href="./css/component.css">
+    <link rel="stylesheet" href="./css/custom.css">
+    <link rel="stylesheet" href="./css/prism.css">
     <link href="./css/zoomslider.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
 
@@ -67,8 +71,9 @@ License: Creative Commons Attribution 3.0 Unported
 
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        
                         <ul class="nav navbar-nav navbar-right">
-                            <li class="active">
+                            <!-- <li class="active">
                                 <a class="page-scroll" href="index.html">
                                     <span class="icon">
                                               <i class="icon-home glyphicon glyphicon-home" aria-hidden="true"></i>
@@ -118,23 +123,74 @@ License: Creative Commons Attribution 3.0 Unported
                                               <i class="icon-contact glyphicon glyphicon-envelope" aria-hidden="true"></i>
                                         </span> Contact
                                 </a>
-                            </li>
-                        </ul>
+                            </li> -->
+                            
+                            <!-- New Code For Navbar -->
+                            <li>
+							<a href="index.html">
+								<span class="icon">
+                                    <i aria-hidden="true" class="icon-home glyphicon glyphicon-home"></i>
+								</span>
+								<span>Home</span>
+							</a>
+						</li>
+						<li>
+							<a href="about.html" onclick="$('#section-2').animatescroll();">
+								<span class="icon"> 
+									<i aria-hidden="true" class="icon-services"></i>
+								</span>
+								<span>About</span>
+							</a>
+						</li>
+						<li>
+							<a href="services.html" onclick="$('#section-3').animatescroll();">
+								<span class="icon">
+									<i aria-hidden="true" class="icon-portfolio"></i>
+								</span>
+								<span>Services</span>
+							</a>
+						</li>
+						<li>
+							<a href="gallery.html" onclick="$('#section-4').animatescroll();">
+								<span class="icon">
+									<i aria-hidden="true" class="icon-blog"></i>
+								</span>
+								<span>Gallery</span>
+							</a>
+						</li>
+						<li>
+							<a href="projects.html" onclick="$('#section-5').animatescroll();">
+								<span class="icon">
+									<i aria-hidden="true" class="icon-team"></i>
+								</span>
+								<span>Projects</span>
+							</a>
+						</li>
+						<li>
+							<a href="team.html" onclick="$('#section-6').animatescroll();">
+								<span class="icon">
+									<i aria-hidden="true" class="icon-contact"></i>
+								</span>
+								<span>Team</span>
+							</a>
+						</li> 
+                            <li>
+							<a href="contact.html" onclick="$('#section-6').animatescroll();">
+								<span class="icon">
+									<i aria-hidden="true" class="icon-contact"></i>
+								</span>
+								<span>Contact</span>
+							</a>
+						</li> 
+                            <!-- End Of New Code -->
+                        </ul> 
                     </div>
 
                     <!-- /.navbar-collapse -->
                 </div>
                 <!-- /.container-fluid -->
             </nav>
-            <!-- script-for-menu -->
-            <!-- it doesn' work !! -->
-            <script>
-                $(".navbar-toogle").click(function() {
-                    $(".navbar-default ul").slideToggle("slow", function() {});
-                });
-
-            </script>
-            <!-- //script-for-menu -->
+          
 
         </div>
     </section>
@@ -172,7 +228,7 @@ License: Creative Commons Attribution 3.0 Unported
     <section class="what-we-offer">
         <div class="container">
             <h1 class="text-center"> What We Offer</h1>
-            <div class="feature media col-lg-3">
+            <div class="wwo media col-lg-3">
                 <h4 class="media-heading">Safety is key</h4>
                 <a href="/how-we-build/safety/" class="pull-left"> <img src="img/wwo1%20(1).jpeg" alt="Safety is key" class="media-object"> </a>
                 <div class="media-body">
@@ -180,7 +236,7 @@ License: Creative Commons Attribution 3.0 Unported
                     <a href="/how-we-build/safety/" class="pull-right">Read More</a></div>
             </div>
 
-            <div class="feature media col-lg-3">
+            <div class="wwo media col-lg-3">
                 <h4 class="media-heading">Safety is key</h4>
                 <a href="/how-we-build/safety/" class="pull-left"> <img src="img/wwo1%20(2).jpeg" alt="Safety is key" class="media-object"> </a>
                 <div class="media-body">
@@ -188,7 +244,7 @@ License: Creative Commons Attribution 3.0 Unported
                     <a href="/how-we-build/safety/" class="pull-right">Read More</a></div>
             </div>
 
-            <div class="feature media col-lg-3">
+            <div class="wwo media col-lg-3">
                 <h4 class="media-heading">Safety is key</h4>
                 <a href="/how-we-build/safety/" class="pull-left"> <img src="img/wwo1%20(3).jpeg" alt="Safety is key" class="media-object"> </a>
                 <div class="media-body">
@@ -366,6 +422,7 @@ License: Creative Commons Attribution 3.0 Unported
     <script type="text/javascript" src="js/jquery.zoomslider.min.js"></script>
 
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script src="js/prism.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
 
 
