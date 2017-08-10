@@ -20,7 +20,10 @@ License: Creative Commons Attribution 3.0 Unported
     <link rel="stylesheet" href="./fonts/font-awesome.min.css">
 
     <!-- Theme CSS -->
-    <link href="./css/zoomslider.css" rel="stylesheet">
+        <link rel="stylesheet" href="./css/default.css">
+    <link rel="stylesheet" href="./css/component.css">
+    <link rel="stylesheet" href="./css/custom.css">
+
     <link rel="stylesheet" href="./css/style.css">
 
 
@@ -47,7 +50,7 @@ License: Creative Commons Attribution 3.0 Unported
             </div>
 
         </div>
-        <div class="header-bottom">
+      <div class="header-bottom">
             <nav class="navbar navbar-default">
                 <div class="container-fluid">
                     <!-- Brand and toggle get grouped for better mobile display -->
@@ -59,63 +62,72 @@ License: Creative Commons Attribution 3.0 Unported
                             <span class="icon-bar"></span>
                         </button>
 
-                        <a class="navbar-brand" href="#"><img src="img/logo.png" alt="logo"></a>
+                        <a id="img-adjust" class="navbar-brand" href="#"><img src="img/logo.png" alt="logo"></a>
                     </div>
 
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                        <ul class="nav navbar-nav navbar-right">
-                            <li>
-                                <a class="page-scroll" href="index.html">
-                                    <span class="icon">
-                                              <i class="icon-home glyphicon glyphicon-home" aria-hidden="true"></i>
-                                         </span> Home
-                                </a>
-                            </li>
 
+                        <ul class="nav navbar-nav navbar-right">
+
+                            <!-- New Code For Navbar -->
                             <li>
-                                <a class="page-scroll" href="about.html" onclick="$('').animatescroll();">
+                                <a href="index.html">
                                     <span class="icon">
-                                            <i class="icon-services glyphicon glyphicon-info-sign" aria-hidden="true"></i>
-                                        </span> About
-                                </a>
-                            </li>
-                            <li>
-                                <a class="page-scroll" href="services.html">
-                                    <span class="icon">
-                                            <i class="icon-portfolio glyphicon glyphicon-cog" aria-hidden="true"></i>
-                                        </span> Services
+                                    <i aria-hidden="true" class="icon-home glyphicon glyphicon-home"></i>
+								</span>
+                                    <span>Home</span>
                                 </a>
                             </li>
                             <li>
-                                <a class="page-scroll" href="gallery.html">
-                                    <span class="icon">
-                                            <i class="icon-blog glyphicon glyphicon-picture" aria-hidden="true"></i>
-                                        </span> Gallery
+                                <a href="about.html" onclick="$('#section-2').animatescroll();">
+                                    <span class="icon"> 
+									<i aria-hidden="true" class="icon-services"></i>
+								</span>
+                                    <span>About</span>
                                 </a>
                             </li>
                             <li>
-                                <a class="page-scroll" href="projects.html">
+                                <a href="services.html" onclick="$('#section-3').animatescroll();">
                                     <span class="icon">
-                                             <i class="fa fa-tasks" aria-hidden="true"></i>
-                                        </span> Projects
-                                </a>
-                            </li>
-                            <li class="active">
-                                <a class="page-scroll" href="team.html">
-                                    <span class="icon">
-                                              <i class="fa fa-users" aria-hidden="true"></i>
-                                        </span> Team
-                                    <span class="sr-only">(current)</span>
+									<i aria-hidden="true" class="icon-portfolio"></i>
+								</span>
+                                    <span>Services</span>
                                 </a>
                             </li>
                             <li>
-                                <a class="page-scroll" href="contact.html">
+                                <a href="gallery.html" onclick="$('#section-4').animatescroll();">
                                     <span class="icon">
-                                              <i class="icon-contact glyphicon glyphicon-envelope" aria-hidden="true"></i>
-                                        </span> Contact
+									<i aria-hidden="true" class="icon-blog"></i>
+								</span>
+                                    <span>Gallery</span>
                                 </a>
                             </li>
+                            <li>
+                                <a href="projects.html" onclick="$('#section-5').animatescroll();">
+                                    <span class="icon">
+									<i aria-hidden="true" class="icon-team"></i>
+								</span>
+                                    <span>Projects</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="team.html" onclick="$('#section-6').animatescroll();">
+                                    <span class="icon">
+									<i aria-hidden="true" class="icon-contact"></i>
+								</span>
+                                    <span>Team</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="contact.html" onclick="$('#section-6').animatescroll();">
+                                    <span class="icon">
+									<i aria-hidden="true" class="icon-contact"></i>
+								</span>
+                                    <span>Contact</span>
+                                </a>
+                            </li>
+                            <!-- End Of New Code -->
                         </ul>
                     </div>
 
@@ -123,14 +135,7 @@ License: Creative Commons Attribution 3.0 Unported
                 </div>
                 <!-- /.container-fluid -->
             </nav>
-            <!-- script-for-menu -->
-            <!-- it doesn' work !! -->
-            <script>
-                $(".navbar-toogle").click(function() {
-                    $(".navbar-default ul").slideToggle("slow", function() {});
-                });
-            </script>
-            <!-- //script-for-menu -->
+
 
         </div>
     </section>
@@ -286,6 +291,8 @@ License: Creative Commons Attribution 3.0 Unported
     <script type="text/javascript" src="js/jquery.zoomslider.min.js"></script>
 
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/prism.js"></script>
+
     <script type="text/javascript" src="js/main.js"></script>
 </body>
 
