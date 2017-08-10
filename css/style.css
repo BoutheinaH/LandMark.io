@@ -319,9 +319,31 @@ ul.social-icons,
 
 
 /*-- top-nav --*/
+
+/* Modifications for the navbar of the other pages */
 .nav li{
     width: 14%;
+    background-color:#F4A907; 
 }
+
+.navbar-default .navbar-nav >li>a{
+    color: #FFF;
+    margin-top: 1.4em;
+    -webkit-transition: margin .5s;
+    -moz-transition: margin .5s;
+    -o-transition: margin .5s;
+    -ms-transition: margin .5s;
+    transition: margin .5s;
+}
+.navbar-default .navbar-nav>li:hover{
+    height: -2em;
+}
+
+#img-adjust{
+    margin-top: 40px;
+}
+/* //Modifications for the navbar of the other pages */
+
 .main {
     height: auto;
     float: right;
