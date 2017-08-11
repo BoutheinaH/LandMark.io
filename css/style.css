@@ -136,7 +136,6 @@ ul .social-media-bookmarks li a i.fa:hover {
 .zs-enabled .zs-slideshow,
 .zs-enabled .zs-slides,
 .zs-enabled .zs-slide {
-    margin-top: 20px;
     height: 100%;
     background-blend-mode: darken;
 }
