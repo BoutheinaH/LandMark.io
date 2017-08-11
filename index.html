@@ -7,179 +7,172 @@ License: Creative Commons Attribution 3.0 Unported
 <html>
 
 <head>
-    <title>Construction Site</title>
+  <title>Construction Site</title>
 
-    <!-- for-mobile-apps -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta name="keywords" content="Construction Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, Smartphone Compatible web template, " />
+  <!-- for-mobile-apps -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="keywords" content="Construction Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, Smartphone Compatible web template, " />
 
-    <!-- Bootstrap Core CSS -->
-    <link href="./css/bootstrap.min.css" rel="stylesheet">
-    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"> -->
+  <!-- Bootstrap Core CSS -->
+  <link href="./css/bootstrap.min.css" rel="stylesheet" media="all">
 
-    <!-- Custom Fonts -->
-    <link rel="stylesheet" href="./fonts/font-awesome.min.css">
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+  <!-- Custom Fonts -->
+  <link rel="stylesheet" href="./fonts/font-awesome.min.css"  media="all">
 
-    <!-- Theme CSS -->
-    <link rel="stylesheet" href="./css/default.css">
-    <link rel="stylesheet" href="./css/component.css">
-    <link rel="stylesheet" href="./css/custom.css">
-    <link rel="stylesheet" href="./css/prism.css">
-    <link href="./css/zoomslider.css" rel="stylesheet">
-    <link rel="stylesheet" href="./css/style.css">
+  <!-- Theme CSS -->
+  <link rel="stylesheet" href="./css/default.css" media="all">
+  <link rel="stylesheet" href="./css/component.css" media="all">
+  <link rel="stylesheet" href="./css/custom.css" media="all">
+  <link rel="stylesheet" href="./css/prism.css" media="all">
+  <link href="./css/zoomslider.css" rel="stylesheet" media="all">
+  <link rel="stylesheet" href="./css/style.css" media="all">
 
 
 </head>
 
 <body>
-    <!--/main-header-->
-    <section class="top-main" id="home">
-        <div class="header-top">
-            <div class="header_left">
-                <ul>
-                    <li><span class="fa fa-envelope" aria-hidden="true"></span> <a href="mailto:info@example.com">info@example.com</a></li>
-                    <li><span class="fa fa-phone-square" aria-hidden="true"></span> (010) 221 918 811</li>
-                </ul>
-            </div>
-            <div class="header_right">
-                <ul class="social-media-bookmarks">
-                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                </ul>
+  <!--/main-header-->
+  <section class="top-main" id="home">
+    <div class="header-top  hidden-xs">
+      <div class="header_left">
+        <ul>
+          <li><span class="fa fa-envelope" aria-hidden="true"></span> <a href="mailto:info@example.com">info@example.com</a></li>
+          <li><span class="fa fa-phone-square" aria-hidden="true"></span> (010) 221 918 811</li>
+        </ul>
+      </div>
+      <div class="header_right">
+        <ul class="social-media-bookmarks">
+          <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+          <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+          <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+          <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+        </ul>
 
-            </div>
+      </div>
 
+    </div>
+  </section>
+
+  <!-- banner -->
+  <div class="banner">
+    <div id="demo-1" data-zs-src='["img/slider1.jpeg", "img/slider2.jpeg", "img/slider3.jpeg","img/slider4.jpeg"]' data-zs-overlay="img/overlay.png">
+      <div class="demo-inner-content">
+        <div class="banner-info">
+          <div class="banner-top">
+            <div class="container">
+              <div class="banner-top-grids banner-top-left">
+                <a href="index.html" class="navbar-brand"><img src="img/logo.png" alt="logo"></a>
+              </div>
+
+              <div class="banner-top-grids banner-top-right">
+                <!-- top-navigation -->
+                <div class="main">
+
+                  <nav id="menu" class="nav top-nav">
+                    <button class="navtoogle">
+                      <span class="glyphicon-menu-hamburger"> </span> Menu
+                    </button>
+                    <ul>
+                      <li>
+                        <a href="index.html">
+                          <span class="icon">
+                            <i aria-hidden="true" class="glyphicon glyphicon-home"></i>
+                            </span>
+                          <span id="nav-list">Home</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="about.html" onclick="$('#section-2').animatescroll();">
+                          <span class="icon">
+                            <i aria-hidden="true" class="glyphicon glyphicon-info-sign"></i>
+                          </span>
+                          <span id="nav-list">About</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="services.html" onclick="$('#section-3').animatescroll();">
+                          <span class="icon">
+                            <i aria-hidden="true" class="glyphicon glyphicon-cog"></i>
+                          </span>
+                          <span id="nav-list">Services</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="gallery.html" onclick="$('#section-4').animatescroll();">
+                          <span class="icon">
+                            <i aria-hidden="true" class="glyphicon glyphicon-picture"></i>
+                          </span>
+                          <span id="nav-list">Gallery</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="projects.html" onclick="$('#section-5').animatescroll();">
+                          <span class="icon">
+                            <i aria-hidden="true" class="glyphicon glyphicon-check"></i>
+                          </span>
+                          <span>Projects </span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="team.html" onclick="$('#section-6').animatescroll();">
+                          <span class="icon">
+                            <i aria-hidden="true" class="glyphicon glyphicon-user"></i>
+                          </span>
+                          <span id="nav-list">Team</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="contact.html" onclick="$('#section-7').animatescroll();">
+                          <span class="icon">
+                            <i aria-hidden="true" class="glyphicon glyphicon-envelope"></i>
+                          </span>
+                          <span id="nav-list">Contact Us</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </nav>
+                  <!-- script-for-menu -->
+                  <!-- <script>
+                  $(".navtoogle").click(function() {
+                    $(".top-nav ul").slideToggle("slow", function() {});
+                  });
+                  </script> -->
+
+                <!-- //top-navigation -->
+              </div>
+              <div class="clearfix"> </div>
+            </div>
+          </div>
+          <!-- banner-text-->
+          <div class="banner-text text-center">
+            <h2>Landmark Construction</h2>
+            <br>
+            <p>Your Dream Home </p>
+          </div>
+          <!-- //banner-text -->
+
+          <div class="clearfix"> </div>
         </div>
-    </section>
+        <div class="clearfix"> </div>
+      </div>
 
-
-        <!-- banner -->
-        <div class="banner">
-            <div id="demo-1" data-zs-src='["img/slider1.jpeg", "img/slider2.jpeg", "img/slider3.jpeg","img/slider4.jpeg"]' data-zs-overlay="img/overlay.png">
-                <div class="demo-inner-content">
-                <div class="banner-info">
-                    <div class="banner-top">
-                        <div class="container">
-                            <div class="banner-top-grids banner-top-left">
-                                <a href="index.html" class="navbar-brand"><img src="img/logo.png" alt="logo"></a>
-                            </div>
-
-                            <div class="banner-top-grids banner-top-right">
-                                <!-- top-navigation -->
-                                <div class="main">
-
-                                    <nav id="menu" class="nav top-nav">
-                                        <button class="navtoogle">
-                                            <span class="icon-menu glyphicon glyphicon-menu-hamburger"> </span> Menu
-                                        </button>
-                                        <ul>
-                                            <li>
-                                                <a href="index.html">
-                                                    <span class="icon">
-										<i aria-hidden="true" class="icon-home glyphicon glyphicon-home"></i>
-									</span>
-                                                    <span id="nav-list">Home</span>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="about.html" onclick="$('#section-2').animatescroll();">
-                                                    <span class="icon"> 
-										<i aria-hidden="true" class="icon-services glyphicon glyphicon-info-sign"></i>
-									</span>
-                                                    <span id="nav-list">About</span>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="services.html" onclick="$('#section-3').animatescroll();">
-                                                    <span class="icon">
-										<i aria-hidden="true" class="icon-portfolio glyphicon glyphicon-cog"></i>
-									</span>
-                                                    <span id="nav-list">Services</span>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="gallery.html" onclick="$('#section-4').animatescroll();">
-                                                    <span class="icon">
-										<i aria-hidden="true" class="icon-blog glyphicon glyphicon-picture"></i>
-									</span>
-                                                    <span id="nav-list">Gallery</span>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="projects.html" onclick="$('#section-5').animatescroll();">
-                                                    <span class="icon">
-										<i aria-hidden="true" class="icon-team glyphicon glyphicon-check"></i>
-									</span>
-                                                    <span>Projects </span>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="team.html" onclick="$('#section-5').animatescroll();">
-                                                    <span class="icon">
-										<i aria-hidden="true" class="icon-team glyphicon glyphicon-check"></i>
-									</span>
-                                                    <span id="nav-list">Team</span>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="contact.html" onclick="$('#section-6').animatescroll();">
-                                                    <span class="icon">
-										<i aria-hidden="true" class="icon-contact glyphicon glyphicon-envelope"></i>
-									</span>
-                                                    <span id="nav-list">Contact Us</span>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </nav>
-                                    <!-- script-for-menu -->
-                                    <script>
-                                        $(".navtoogle").click(function() {
-                                            $(".top-nav ul").slideToggle("slow", function() {});
-                                        });
-
-                                    </script>
-                                    <!-- //script-for-menu -->
-                                    <script src="js/modernizr.custom.js"></script>
-
-                                </div>
-                                <!-- //top-navigation -->
-                            </div>
-                            <div class="clearfix"> </div>
-                        </div>
-                    </div>
-                    <!-- banner-text--> 
-                    <div class="banner-text text-center">
-                        <h2>Landmark Construction</h2>
-                        <br>
-                        <p>Your Dream Home </p>
-                    </div>
-                    <!-- //banner-text -->
-
-                    <div class="clearfix"> </div>
-                </div>
-                <div class="clearfix"> </div>
-                </div>
-
-            </div>
-        </div>
-        <!-- //banner -->
-        <!------------------------------------------------------------------------->
-
-
-        
+    </div>
+  </div>
+  <!-- //banner -->
+  <!------------------------------------------------------------------------->
 
 
 
-    <!--Start Brief Section-->
-    <section class="brief text-center">
-        <h1>Welcome!</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent turpis enim, faucibus ac dictum quis, aliquam nec nulla.
-            <br> Quisque vitae eleifend est, ac viverra risus.
-            <br>Pellentesque lacus neque, tincidunt quis enim vitae, viverra eleifend urna.</p>
+
+
+
+  <!--Start Brief Section-->
+  <section class="brief text-center">
+    <h1>Welcome!</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent turpis enim, faucibus ac dictum quis, aliquam nec nulla.
+      <br> Quisque vitae eleifend est, ac viverra risus.
+      <br>Pellentesque lacus neque, tincidunt quis enim vitae, viverra eleifend urna.</p>
     </section>
 
     <!--End Brief Section-->
@@ -187,221 +180,221 @@ License: Creative Commons Attribution 3.0 Unported
 
     <!-- Start Section What We Offer -->
     <section class="what-we-offer">
-        <div class="container">
-            <h1 class="text-center"> What We Offer</h1>
-            <div class="wwo media col-lg-3">
-                <h4 class="media-heading">Safety is key</h4>
-                <a href="/how-we-build/safety/" class="pull-left"> <img src="img/wwo1%20(1).jpeg" alt="Safety is key" class="media-object"> </a>
-                <div class="media-body">
-                    <p>Landmark Construction Company is dedicated to achieving safety excellence by promoting a culture that effectively identifies and manages risk through recognition, evaluation, education, and action.</p>
-                    <a href="/how-we-build/safety/" class="pull-right">Read More</a></div>
+      <div class="container">
+        <h1 class="text-center"> What We Offer</h1>
+        <div class="wwo media col-lg-3">
+          <h4 class="media-heading">Safety is key</h4>
+          <a href="/how-we-build/safety/" class="pull-left"> <img src="img/wwo1%20(1).jpeg" alt="Safety is key" class="media-object"> </a>
+          <div class="media-body">
+            <p>Landmark Construction Company is dedicated to achieving safety excellence by promoting a culture that effectively identifies and manages risk through recognition, evaluation, education, and action.</p>
+            <a href="/how-we-build/safety/" class="pull-right">Read More</a></div>
+          </div>
+
+          <div class="wwo media col-lg-3">
+            <h4 class="media-heading">Safety is key</h4>
+            <a href="/how-we-build/safety/" class="pull-left"> <img src="img/wwo1%20(2).jpeg" alt="Safety is key" class="media-object"> </a>
+            <div class="media-body">
+              <p>Labdmark Construction Company is dedicated to achieving safety excellence by promoting a culture that effectively identifies and manages risk through recognition, evaluation, education, and action.</p>
+              <a href="/how-we-build/safety/" class="pull-right">Read More</a></div>
             </div>
 
             <div class="wwo media col-lg-3">
-                <h4 class="media-heading">Safety is key</h4>
-                <a href="/how-we-build/safety/" class="pull-left"> <img src="img/wwo1%20(2).jpeg" alt="Safety is key" class="media-object"> </a>
-                <div class="media-body">
-                    <p>Labdmark Construction Company is dedicated to achieving safety excellence by promoting a culture that effectively identifies and manages risk through recognition, evaluation, education, and action.</p>
-                    <a href="/how-we-build/safety/" class="pull-right">Read More</a></div>
+              <h4 class="media-heading">Safety is key</h4>
+              <a href="/how-we-build/safety/" class="pull-left"> <img src="img/wwo1%20(3).jpeg" alt="Safety is key" class="media-object"> </a>
+              <div class="media-body">
+                <p>Landmark Construction Company is dedicated to achieving safety excellence by promoting a culture that effectively identifies and manages risk through recognition, evaluation, education, and action.</p>
+                <a href="/how-we-build/safety/" class="pull-right">Read More</a></div>
+              </div>
             </div>
+          </section>
+          <!-- // End Section What We Offer -->
 
-            <div class="wwo media col-lg-3">
-                <h4 class="media-heading">Safety is key</h4>
-                <a href="/how-we-build/safety/" class="pull-left"> <img src="img/wwo1%20(3).jpeg" alt="Safety is key" class="media-object"> </a>
-                <div class="media-body">
-                    <p>Landmark Construction Company is dedicated to achieving safety excellence by promoting a culture that effectively identifies and manages risk through recognition, evaluation, education, and action.</p>
-                    <a href="/how-we-build/safety/" class="pull-right">Read More</a></div>
-            </div>
-        </div>
-    </section>
-    <!-- // End Section What We Offer -->
+          <!--features-->
+          <section>
 
-    <!--features-->
-    <section>
-
-        <div class="feature">
-            <div class="container">
+            <div class="feature">
+              <div class="container">
                 <h3>Features</h3>
                 <div class="feature-grids">
-                    <div class="col-md-6 feature-grid">
-                        <div class="feature-icon">
-                            <span class="glyphicon glyphicon-wrench" aria-hidden="true"></span>
-                        </div>
-                        <div class="feature-text">
-                            <h4>Nunc imperdiet, sapien</h4>
-                            <p>Lorem ipsum dolor sit amet, coetuer adipiscing elit. Praesent vestibulum molestie lacus. Aenean nonummy varius penatibus et magnis.</p>
-                        </div>
-                        <div class="clearfix"></div>
+                  <div class="col-md-6 feature-grid">
+                    <div class="feature-icon">
+                      <span class="glyphicon glyphicon-wrench" aria-hidden="true"></span>
                     </div>
-                    <div class="col-md-6 feature-grid feat1">
-                        <div class="feature-icon">
-                            <span class="glyphicon glyphicon-cog" aria-hidden="true"></span>
-                        </div>
-                        <div class="feature-text">
-                            <h4>Nunc imperdiet, sapien</h4>
-                            <p>Lorem ipsum dolor sit amet, coetuer adipiscing elit. Praesent vestibulum molestie lacus. Aenean nonummy varius penatibus et magnis.</p>
-                        </div>
-                        <div class="clearfix"></div>
+                    <div class="feature-text">
+                      <h4>Nunc imperdiet, sapien</h4>
+                      <p>Lorem ipsum dolor sit amet, coetuer adipiscing elit. Praesent vestibulum molestie lacus. Aenean nonummy varius penatibus et magnis.</p>
                     </div>
                     <div class="clearfix"></div>
+                  </div>
+                  <div class="col-md-6 feature-grid feat1">
+                    <div class="feature-icon">
+                      <span class="glyphicon glyphicon-cog" aria-hidden="true"></span>
+                    </div>
+                    <div class="feature-text">
+                      <h4>Nunc imperdiet, sapien</h4>
+                      <p>Lorem ipsum dolor sit amet, coetuer adipiscing elit. Praesent vestibulum molestie lacus. Aenean nonummy varius penatibus et magnis.</p>
+                    </div>
+                    <div class="clearfix"></div>
+                  </div>
+                  <div class="clearfix"></div>
                 </div>
                 <div class="feature-grids">
-                    <div class="col-md-6 feature-grid">
-                        <div class="feature-icon">
-                            <span class="glyphicon glyphicon-calendar" aria-hidden="true"></span>
-                        </div>
-                        <div class="feature-text">
-                            <h4>Nunc imperdiet, sapien</h4>
-                            <p>Lorem ipsum dolor sit amet, coetuer adipiscing elit. Praesent vestibulum molestie lacus. Aenean nonummy varius penatibus et magnis.</p>
-                        </div>
-                        <div class="clearfix"></div>
+                  <div class="col-md-6 feature-grid">
+                    <div class="feature-icon">
+                      <span class="glyphicon glyphicon-calendar" aria-hidden="true"></span>
                     </div>
-                    <div class="col-md-6 feature-grid feat1">
-                        <div class="feature-icon">
-                            <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
-                        </div>
-                        <div class="feature-text">
-                            <h4>Nunc imperdiet, sapien</h4>
-                            <p>Lorem ipsum dolor sit amet, coetuer adipiscing elit. Praesent vestibulum molestie lacus. Aenean nonummy varius penatibus et magnis.</p>
-                        </div>
-                        <div class="clearfix"></div>
+                    <div class="feature-text">
+                      <h4>Nunc imperdiet, sapien</h4>
+                      <p>Lorem ipsum dolor sit amet, coetuer adipiscing elit. Praesent vestibulum molestie lacus. Aenean nonummy varius penatibus et magnis.</p>
                     </div>
                     <div class="clearfix"></div>
+                  </div>
+                  <div class="col-md-6 feature-grid feat1">
+                    <div class="feature-icon">
+                      <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+                    </div>
+                    <div class="feature-text">
+                      <h4>Nunc imperdiet, sapien</h4>
+                      <p>Lorem ipsum dolor sit amet, coetuer adipiscing elit. Praesent vestibulum molestie lacus. Aenean nonummy varius penatibus et magnis.</p>
+                    </div>
+                    <div class="clearfix"></div>
+                  </div>
+                  <div class="clearfix"></div>
                 </div>
                 <div class="feature-grids">
-                    <div class="col-md-6 feature-grid">
-                        <div class="feature-icon">
-                            <span class="glyphicon glyphicon-bell" aria-hidden="true"></span>
-                        </div>
-                        <div class="feature-text">
-                            <h4>Nunc imperdiet, sapien</h4>
-                            <p>Lorem ipsum dolor sit amet, coetuer adipiscing elit. Praesent vestibulum molestie lacus. Aenean nonummy varius penatibus et magnis.</p>
-                        </div>
-                        <div class="clearfix"></div>
+                  <div class="col-md-6 feature-grid">
+                    <div class="feature-icon">
+                      <span class="glyphicon glyphicon-bell" aria-hidden="true"></span>
                     </div>
-                    <div class="col-md-6 feature-grid feat1">
-                        <div class="feature-icon">
-                            <span class="glyphicon glyphicon-cd" aria-hidden="true"></span>
-                        </div>
-                        <div class="feature-text">
-                            <h4>Nunc imperdiet, sapien</h4>
-                            <p>Lorem ipsum dolor sit amet, coetuer adipiscing elit. Praesent vestibulum molestie lacus. Aenean nonummy varius penatibus et magnis.</p>
-                        </div>
-                        <div class="clearfix"></div>
+                    <div class="feature-text">
+                      <h4>Nunc imperdiet, sapien</h4>
+                      <p>Lorem ipsum dolor sit amet, coetuer adipiscing elit. Praesent vestibulum molestie lacus. Aenean nonummy varius penatibus et magnis.</p>
                     </div>
                     <div class="clearfix"></div>
+                  </div>
+                  <div class="col-md-6 feature-grid feat1">
+                    <div class="feature-icon">
+                      <span class="glyphicon glyphicon-cd" aria-hidden="true"></span>
+                    </div>
+                    <div class="feature-text">
+                      <h4>Nunc imperdiet, sapien</h4>
+                      <p>Lorem ipsum dolor sit amet, coetuer adipiscing elit. Praesent vestibulum molestie lacus. Aenean nonummy varius penatibus et magnis.</p>
+                    </div>
+                    <div class="clearfix"></div>
+                  </div>
+                  <div class="clearfix"></div>
                 </div>
+              </div>
             </div>
-        </div>
-        <!-- end features-->
-    </section>
+            <!-- end features-->
+          </section>
 
-    <!-- Start Footer Section -->
-    <section class="footer">
-        <div class="container">
-            <div class="row">
+          <!-- Start Footer Section -->
+          <section class="footer">
+            <div class="container">
+              <div class="row">
                 <div class="col-lg-4">
-                    <h3>Sitemap</h3>
-                    <ul class="list-unstyled two-columns">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="services.html">Services</a></li>
-                        <li><a href="gallery.html">Gallery</a></li>
-                        <li><a href="projects.html">Projects</a></li>
-                        <li><a href="team.html">Team</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>
+                  <h3>Sitemap</h3>
+                  <ul class="list-unstyled two-columns">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="team.html">Team</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                  </ul>
 
                 </div>
                 <div class="col-lg-4">
-                    <h3> Latest Projects </h3>
+                  <h3> Latest Projects </h3>
 
-                    <div class="media">
-                        <a class="pull-left" href="#">
-                            <img class="media-object" src="img/project1.jpeg" alt="Project_01">
-                        </a>
-                        <div class="media-body">
-                            <h4 class="media-heading">Project 1</h4>
-                            <p>Some text about Project_01: location, team, mission, duration...</p>
-
-                        </div>
+                  <div class="media">
+                    <a class="pull-left" href="#">
+                      <img class="media-object" src="img/project1.jpeg" alt="Project_01">
+                    </a>
+                    <div class="media-body">
+                      <h4 class="media-heading">Project 1</h4>
+                      <p>Some text about Project_01: location, team, mission, duration...</p>
 
                     </div>
-                    <div class="media">
-                        <a class="pull-left" href="#">
-                            <img class="media-object" src="img/project2.jpeg" alt="Project_02">
-                        </a>
-                        <div class="media-body">
-                            <h4 class="media-heading">Project 2</h4>
-                            <p>Some text about Project_02: location, team, mission, duration...</p>
-                        </div>
 
+                  </div>
+                  <div class="media">
+                    <a class="pull-left" href="#">
+                      <img class="media-object" src="img/project2.jpeg" alt="Project_02">
+                    </a>
+                    <div class="media-body">
+                      <h4 class="media-heading">Project 2</h4>
+                      <p>Some text about Project_02: location, team, mission, duration...</p>
                     </div>
+
+                  </div>
 
                 </div>
                 <div class="col-lg-4">
-                    <h3>Feel Free To Contact Us</h3>
-                    <ul class="Contact-Us">
-                        <li><span class="fa fa-envelope" aria-hidden="true"></span> <a href="mailto:info@example.com">info@example.com</a></li>
-                        <li><span class="fa fa-phone-square" aria-hidden="true"></span> (010) 221 918 811</li>
-                    </ul>
-                    <ul class="social-media-bookmarks social-list">
-                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                    </ul>
+                  <h3>Feel Free To Contact Us</h3>
+                  <ul class="Contact-Us">
+                    <li><span class="fa fa-envelope" aria-hidden="true"></span> <a href="mailto:info@example.com">info@example.com</a></li>
+                    <li><span class="fa fa-phone-square" aria-hidden="true"></span> (010) 221 918 811</li>
+                  </ul>
+                  <ul class="social-media-bookmarks social-list">
+                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                  </ul>
                 </div>
 
+              </div>
             </div>
-        </div>
-    </section>
+          </section>
 
-    <section class="footer-bottom">
-        <div class="container">
-            <div class=" footer-rights text-center">
+          <section class="footer-bottom">
+            <div class="container">
+              <div class=" footer-rights text-center">
                 <p><span> 2017 </span> Landmark Construction. All rights reserved |</p>
+              </div>
             </div>
-        </div>
+          </section>
+          <!-- // End Footer Section -->
 
-    </section>
-    <!-- // End Footer Section -->
-
-    <div class="scroll-top">
-        <i id="scroll" class="fa fa-chevron-circle-up" aria-hidden="true"></i>
-    </div>
+          <div class="scroll-top">
+            <i id="scroll" class="fa fa-chevron-circle-up" aria-hidden="true"></i>
+          </div>
 
 
 
 
 
 
-    <!-- load java script libraries -->
-    <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
-    <script type="text/javascript" src="js/animatescroll.min.js"></script>
-    <script type="text/javascript" src="js/modernizr-2.6.2.min.js"></script>
-    <script type="text/javascript" src="js/jquery.zoomslider.min.js"></script>
+          <!-- load java script libraries -->
+          <!-- <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script> -->
+          <script type="text/javascript" src="js/jquery-2.0.3.min.js"></script>
+          <script type="text/javascript" src="js/animatescroll.min.js"></script>
+          <script type="text/javascript" src="js/modernizr-2.6.2.min.js"></script>
+          <script type="text/javascript" src="js/jquery.zoomslider.min.js"></script>
 
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    <script src="js/prism.js"></script>
-    <script type="text/javascript" src="js/main.js"></script>
+          <script type="text/javascript" src="js/bootstrap.min.js"></script>
+          <script type="text/javascript" src="js/prism.js"></script>
+          <script type="text/javascript" src="js/main.js"></script>
 
 
-    <!-- <!-- start-smooth-scrolling
+          <!-- <!-- start-smooth-scrolling
 
-<script type="text/javascript" src="js/move-top.js"></script>
-<script type="text/javascript" src="js/easing.js"></script>
-<script type="text/javascript">
-		jQuery(document).ready(function($) {
-			$(".scroll").click(function(event){
-				event.preventDefault();
+          <script type="text/javascript" src="js/move-top.js"></script>
+          <script type="text/javascript" src="js/easing.js"></script>
+          <script type="text/javascript">
+          jQuery(document).ready(function($) {
+          $(".scroll").click(function(event){
+          event.preventDefault();
 
-		$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
-			});
-		});
-</script>
+          $('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+        });
+      });
+    </script>
 
-<!-- //end-smooth-scrolling -->
-</body>
+    <!-- //end-smooth-scrolling -->
+  </body>
 
-</html>
+  </html>

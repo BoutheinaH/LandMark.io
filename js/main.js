@@ -57,8 +57,8 @@ var ScrollButton = $("#scroll");
 //   });
 // });
 
-$(function(){
-  $(document).ready(function() {
-      $("#lightgallery").lightSlider();
-    });
-});
+// $(function(){
+//   $(document).ready(function() {
+//       $("#lightgallery").lightSlider();
+//     });
+// });
