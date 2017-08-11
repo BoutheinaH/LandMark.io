@@ -86,6 +86,11 @@ label {
     padding: 0.3em 0em 0.4em 24em;
 }
 
+.navbar-right{
+    margin-right: -45px;
+    width: 689px;
+}
+
 /*-- End header-top-left --*/
 
 
@@ -136,7 +141,6 @@ ul .social-media-bookmarks li a i.fa:hover {
 .zs-enabled .zs-slideshow,
 .zs-enabled .zs-slides,
 .zs-enabled .zs-slide {
-    margin-top: 20px;
     height: 100%;
     background-blend-mode: darken;
 }
@@ -323,9 +327,22 @@ ul.social-icons,
 /* Modifications for the navbar of the other pages */
 .nav li{
     width: 14%;
+    height: 140px;
     background-color:#F4A907;
+    border-left: 1px solid rgb(78, 78, 78);
 }
 
+.nav i{
+    font-size: 0.9em;
+}
+
+.nav li:hover,
+.nav li:active,
+.nav li:focus {
+    height: 10em;
+    border-bottom: 4px solid rgb(174, 78, 1);
+    
+}
 .navbar-default .navbar-nav >li>a{
     color: #FFF;
     margin-top: 1.4em;
@@ -411,7 +428,7 @@ ul.social-icons,
     display: block;
 }
 .nav span {
-    font-size: 20px;
+    font-size: 16px;
 }
 
 /* Placing the icon */
@@ -470,7 +487,7 @@ ul.social-icons,
 /* Making the text follow the height animation */
 
 .no-touch .banner .nav a:hover .icon + span {
-    margin-top: 1.4em;
+   /* margin-top: 1.4em;*/
     -webkit-transition: margin .5s;
     -moz-transition: margin .5s;
     -o-transition: margin .5s;
@@ -501,16 +518,16 @@ ul.social-icons,
     .no-touch .banner .nav li a:active,
     .no-touch .banner .nav li a:focus {
         border-bottom: 4px solid #FC6914;
-    }
+    } 
     .no-touch .banner .nav li:hover {
-        height: 6.4em;
+        height: 6.4em; 
     }
     .no-touch .banner .nav a:hover,
     .banner .nav a:active,
     .banner .nav a:focus {
-        height: 4em;
+       height: 4em; 
     }
-}
+} 
 @media (min-width: 50em) and (max-width: 61.250em) {
     /* Size and font adjustments to make it fit into the screen*/
     .banner .nav ul {
