@@ -120,11 +120,15 @@ ul.social-media-bookmarks li a i.fa {
   -ms-transition: all 0.5s ease-in-out;
 }
 
-
-ul .social-media-bookmarks li a i.fa:hover {
-  cursor: pointer;
-  color: #fff;
-  background-color: #ccc;
+/*.social-list li a i.fa:hover*/
+ul.social-media-bookmarks li a i.fa:hover {
+  background-color: #F4A907;
+  transform: rotateZ(180deg);
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
 /*-- End social-media-bookmarks --*/
@@ -824,11 +828,12 @@ ul.social-icons,
 }
 .footer .social-list li a i.fa:hover {
   background-color: #F4A907;
-  transition: all 0.5s ease-in-out;
-  -webkit-transition: all 0.5s ease-in-out;
-  -moz-transition: all 0.5s ease-in-out;
-  -o-transition: all 0.5s ease-in-out;
-  -ms-transition: all 0.5s ease-in-out;
+  transform: rotateZ(180deg);
+  transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
 }
 .media-body {
   font-size: 13px;
