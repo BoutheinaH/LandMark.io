@@ -1,0 +1,22 @@
+/*-- top-nav --*/
+
+@media (max-width: 900px) {
+    .navbar-right li {
+        margin-top: -1em;
+        height: 40px;
+        width: 140px;
+    }
+    .navbar-right li a {
+        padding-top: 2px;
+    }
+    .icon + span {
+        font-size: 0.8em;
+        padding-top: 3px;
+    }
+    .navbar-right li:hover {
+        height: 4em;
+    }
+}
+
+/*-- //top-nav --*/
+
