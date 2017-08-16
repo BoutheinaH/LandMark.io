@@ -615,8 +615,14 @@ ul.social-icons,
 }
 
 /* Styling the toggle menu link and hiding it */
+.navbar-default .navbar-toggle {
+  background-color:#F4A907;
+}
 
 .banner .nav .navtoogle {
+  position: absolute;
+  top: 5px;
+  z-index: 1;
   display: none;
   padding: 0.5em 0.5em 0.6em;
   font-weight: normal;
@@ -624,16 +630,17 @@ ul.social-icons,
   font-size: 1.2em;
   background: none;
   border: none;
-  border-bottom: 2px solid rgb(221, 221, 221);
+/*  border-bottom: 2px solid rgb(221, 221, 221);*/
   cursor: pointer;
   outline: none;
   margin: 0 auto;
 }
 .icon-menu {
-  position: relative;
+  position: absolute;
   top: 3px;
   line-height: 0;
-  font-size: 1.6em;
+  font-size: 2.6em;
+  z-index: 1;
 }
 @media (max-width: 32.438em) {
   /* Unhiding the styled menu link */
@@ -672,6 +679,54 @@ ul.social-icons,
   }
 }
 
+
+@media (max-width: 900px) {
+    .navbar-right li {
+        margin-top: -1em;
+        height: 40px;
+        width: 140px;
+    }
+    .navbar-right li a {
+        padding-top: 2px;
+    }
+    .icon + span {
+        font-size: 0.8em;
+        padding-top: 3px;
+    }
+    .navbar-right li:hover {
+        height: 4em;
+        border-left-color: :#F4A907;
+       background-color: :#F4A907;
+  -webkit-transition: .4s ease-in-out;
+  -moz-transition: .4s ease-in-out;
+  -o-transition: .4s ease-in-out;
+  -ms-transition: .4s ease-in-out;
+  transition: .4s ease-in-out;
+    }
+    
+    .navbar-nav li a:hover{
+        border-left-color: :#F4A907;
+       background-color: :#F4A907;
+  -webkit-transition: .4s ease-in-out;
+  -moz-transition: .4s ease-in-out;
+  -o-transition: .4s ease-in-out;
+  -ms-transition: .4s ease-in-out;
+  transition: .4s ease-in-out;
+}
+    }
+
+
+   .navbar-right li a:hover i,
+   .navbar-right li a:active i,
+   .navbar-right li a:focus i {
+     border-left-color: :#F4A907;
+       background-color: :#F4A907;
+  -webkit-transition: .4s ease-in-out;
+  -moz-transition: .4s ease-in-out;
+  -o-transition: .4s ease-in-out;
+  -ms-transition: .4s ease-in-out;
+  transition: .4s ease-in-out;
+}
 /*-- //top-nav --*/
 
 
@@ -910,8 +965,9 @@ ul.social-icons,
 .team {
   background: rgba(2, 2, 2, 0.5);
   padding-top: 20px;
-}
   padding-bottom: 20px;
+}
+
 .team h1,
 .team p {
   color: #FFF;
